@@ -1,0 +1,15 @@
+[package]
+name = "Society_Management"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x1236b48eb07312b0479108eafdbaac24e77fd35cf1bea621633ddefe310f484f"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
